@@ -1,23 +1,42 @@
+
 <!DOCTYPE html>
 
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>My Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<img alt= "hello" height="200px" src="https://images.pexels.com/photos/148182/pexels-photo-148182.jpeg">
-	<h1>hello ji</h1>
-	<ul>
-		<li>hi</li>
-		<li>hi</li>
-		<li>hi</li>
-	</ul>
-	<nav>hi</nav>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1 role="heading">Hello Ji</h1>
+
+    <nav role="navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <img
+        role="img"
+        alt="A scenic landscape"
+        height="200"
+        src="https://images.pexels.com/photos/148182/pexels-photo-148182.jpeg"
+    >
+
+    <p id="about">
+        Welcome to my accessible portfolio. I am a student interested in
+        software development and technology.
+    </p>
+
+    <ul role="list">
+        <li role="listitem">Web Development</li>
+        <li role="listitem">Java Programming</li>
+        <li role="listitem">Problem Solving</li>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
